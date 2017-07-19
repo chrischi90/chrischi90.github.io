@@ -6,10 +6,10 @@ highlighter:      pygments
 permalink:        pretty
 
 # Setup
-title:            Chris Chris
+title:            Chris Chi
 tagline:          'Software Developer'
 description:      'A self-taught Software Developer based out of NYC.'
-url:              http://hyde.getpoole.com
+url:              http://chrischi90.github.io
 baseurl:          /
 
 author:
