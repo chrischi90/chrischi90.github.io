@@ -1,0 +1,26 @@
+html {
+  font-family: "Montserrat", Helvetica, sans-serif;
+}
+
+.sidebar-about h1,
+.sidebar-nav,
+.page-title {
+  font-family: "Rubik", Helvetica, sans-serif;
+}
+
+
+/**** SIDEBAR *****/
+
+.sidebar-about h1,
+.page-title {
+  font-weight: 800;
+  font-style: italic;
+}
+
+.lead {
+  font-size: 1rem;
+}
+
+.copyright {
+  font-size: 0.7rem;
+}
