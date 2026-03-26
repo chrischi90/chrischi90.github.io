@@ -24,3 +24,74 @@ html {
 .copyright {
   font-size: 0.7rem;
 }
+
+/* Social icons */
+.sidebar-social {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+@media (min-width: 48em) {
+  .sidebar-social {
+    justify-content: flex-start;
+  }
+}
+
+.sidebar-social a {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.75rem;
+  transition: color 0.2s ease;
+}
+
+.sidebar-social a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Responsive improvements */
+.sidebar-about h1 {
+  font-size: 2.5rem;
+  line-height: 1.1;
+}
+
+@media (max-width: 47.99em) {
+  .sidebar {
+    padding: 1.25rem 1rem;
+  }
+
+  .sidebar-about h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .lead {
+    margin-bottom: 0.85rem;
+  }
+
+  .sidebar-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  .sidebar-nav-item {
+    display: inline-block;
+    line-height: 1.2;
+    padding: 0.35rem 0.6rem;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 0.35rem;
+  }
+
+  .content {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .page,
+  .post {
+    margin-bottom: 2.5rem;
+  }
+}
