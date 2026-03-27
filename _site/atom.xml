@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Chris Chi</title>
- <link href="https://chrischi90.github.io/atom.xml" rel="self"/>
- <link href="https://chrischi90.github.io/"/>
- <updated>2026-03-26T16:01:23-04:00</updated>
- <id>https://chrischi90.github.io/</id>
+ <link href="https://www.chrischi.me/atom.xml" rel="self"/>
+ <link href="https://www.chrischi.me/"/>
+ <updated>2026-03-27T12:18:50-04:00</updated>
+ <id>https://www.chrischi.me/</id>
  <author>
    <name>Mark Otto</name>
    <email></email>
